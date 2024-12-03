@@ -9,10 +9,8 @@ Unscrambling:
   - if only one digit in scrambled string, take it twice (it is first and last) 
 """
 
-# read file of line-separated inputs
-# add each scrambled calibration value to alist
-with open('/workspaces/aoc24/input/ex.txt') as file:
-    lines = [line.rstrip() for line in file]
+from utils.files import readlines
+lines = readlines('ex.txt')
 
 
 def getFirstNum(string):

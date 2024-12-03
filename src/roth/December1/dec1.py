@@ -50,7 +50,7 @@ total_difference = sum(differences)
 
 ##########   PART II   ##########
 
-similarity = 0#to begin with
+similarity = 0 #to begin with
 
 for left_num in group1int:
     # print(left_num, ":", (left_num * group2int.count(left_num)))
